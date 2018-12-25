@@ -1,4 +1,5 @@
 body{
+	text-align: center;
 	margin: 0;
 	white-space: nowrap;
 	min-width: 936px;
@@ -30,8 +31,6 @@ div{
 	margin: 0 auto;
 }
 .header{
-	min-width: 936px;
-	max-width:1440px;
 	background-size: cover;
 	background-position: bottom;
 	background-image: url(./header-img.jpg);
@@ -40,8 +39,6 @@ div{
 	height: 400px;
 }
 .white-mask{
-	min-width: 936px;
-	max-width:1440px;
 	position: absolute;
 	background-color: rgba(250, 250, 250, 0.52);
 	width: 100%;
