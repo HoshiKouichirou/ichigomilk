@@ -95,7 +95,20 @@ div.info-schedule,.info-ticket,.info-access{
 	height: 150px;
 	border: solid 1px;
 }
-
+.sunday{
+	font-size: 25px;
+}
+.monday{
+	position: absolute;
+	transform: translate(95px, -153px);
+	font-size: 25px;
+}
+.week{
+	font-size: 16px;
+}
+.attention{
+	font-size: 15px;
+}
 .info-ticket{
 	font-size: 26px;
 }
