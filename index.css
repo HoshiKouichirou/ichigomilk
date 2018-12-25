@@ -1,0 +1,112 @@
+body{
+	margin: 0;
+	white-space: nowrap;
+	min-width: 936px;
+	font-family: "YuMincho";
+	width: 100%;
+}
+p{
+	margin: 0;
+}
+div{
+	margin: 0;
+}
+.title{
+	padding-top: 50px;
+	position: relative;
+	z-index: 1;
+	font-size: 50px;
+}
+.concept{
+	padding: 40px;
+	position: relative;
+	z-index: 1;
+	font-size: 15px;
+}
+
+.main{
+	display: flex;
+	max-width:1440px;
+	margin: 0 auto;
+}
+.header{
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(./header-img.jpg);
+	text-align: center;
+	width: 100%;
+	height: 400px;
+}
+.white-mask{
+	min-width: 936px;
+	max-width:1440px;
+	position: absolute;
+	background-color: rgba(250, 250, 250, 0.52);
+	width: 100%;
+	height: 400px;
+}
+.info-left{
+	width: 50%;
+	text-align: center;
+
+}
+.info-right{
+	width: 50%;
+	text-align: center;
+}
+.studio-map{
+	width: 390px;
+	height: 270px;
+}
+.info-title{
+	text-align: left;
+	font-size: 30px;
+	border-bottom: solid 1px;
+}
+div.info-cast,.info-staff,.info-schedule,.info-ticket,.info-access{
+	text-align: left;
+	width: 270px;
+	padding: 10px;
+}
+div.info-cast,.info-staff,.info-contact{
+	margin-left: 35%;
+}
+div.info-schedule,.info-ticket,.info-access{
+	margin-right: 20px;
+}
+.info-cast{
+	margin: 0;
+}
+.weeks{
+	padding-left: 20px;
+	font-size: 16px;
+}
+.cast{
+	position: absolute;
+	transform: translate(95px, -120px);
+}
+.member{
+	position: absolute;
+	transform: translate(95px, -192px);
+}
+.info-contact{
+	text-align: center;
+	width: 300px;
+	height: 150px;
+	border: solid 1px;
+}
+
+.info-ticket{
+	font-size: 26px;
+}
+.venue-name{
+	font-size: 25px;
+}
+.contact-venue{
+	font-size: 13px;
+}
+.info-cast{
+	margin: 0;
+	position: relative;
+	right: 0;
+}
