@@ -30,6 +30,8 @@ div{
 	margin: 0 auto;
 }
 .header{
+	min-width: 936px;
+	max-width:1440px;
 	background-size: cover;
 	background-position: bottom;
 	background-image: url(./header-img.jpg);
